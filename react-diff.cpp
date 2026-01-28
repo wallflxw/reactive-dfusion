@@ -1,4 +1,4 @@
-// g++ .\main.cpp -I..\LIBS\raylib-5.5\include\ -L..\LIBS\raylib-5.5\lib\ -I..\LIBS\ -lraylib -lwinmm -lgdi32 -Wall -Wextra -O3 -o main
+// g++ .\react-diff.cpp -I..\LIBS\raylib-5.5\include\ -L..\LIBS\raylib-5.5\lib\ -I..\LIBS\ -lraylib -lwinmm -lgdi32 -Wall -Wextra -O3 -o react-diff
 // Source: https://www.karlsims.com/rd.html | https://en.wikipedia.org/wiki/Reaction–diffusion_system
 #include <raylib.h>
 #include <array>
