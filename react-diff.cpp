@@ -29,6 +29,7 @@ void add_B_to_grid(Grid* curr_grid_p) ;
 
 int main() {
     _MM_SET_FLUSH_ZERO_MODE(_MM_FLUSH_ZERO_ON);
+    SetConfigFlags(FLAG_WINDOW_UNDECORATED);
     InitWindow(WIDTH, HEIGTH, "Hello, you");
     SetTargetFPS(60);
     bool pause = true;
@@ -134,8 +135,8 @@ void init_grid(Grid* curr_grid_p) {
     for (auto& row: (*curr_grid_p)) {
         row.fill({.A = 1.0f});
     }
-    for (int i = 90; i < 100; i++) {
-        for (int j = 90; j < 100; j++) {
+    for (int i = N/2-10; i < N/2+10; i++) {
+        for (int j = N/2-10; j < N/2+10; j++) {
             (*curr_grid_p)[i][j].B = 1.0f;
         }
     }
