@@ -1,7 +1,6 @@
 // g++ .\main.cpp -I..\LIBS\raylib-5.5\include\ -L..\LIBS\raylib-5.5\lib\ -I..\LIBS\ -lraylib -lwinmm -lgdi32 -Wall -Wextra -O3 -o main
 // Source: https://www.karlsims.com/rd.html | https://en.wikipedia.org/wiki/Reaction–diffusion_system
 #include <raylib.h>
-#include <helpers.h>
 #include <array>
 #include <xmmintrin.h>
 using std::array;
