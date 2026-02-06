@@ -1,14 +1,21 @@
 ## Reaction-Diffusion visualization implemented in Cpp + Raylib
 
 # Examples:
-Mitosis:
+Coral:
 
-<img width="200" height="200" alt="capture_1769625192" src="https://github.com/user-attachments/assets/9b435d41-42a6-4579-9321-81f0b9c32a77" />
+![Animation1](https://github.com/user-attachments/assets/16c8aa17-280c-4eab-8d94-109bcfb19ef0)
+
+Mitosis
+
+![Animation2](https://github.com/user-attachments/assets/1d41f990-a77d-42f5-ae3b-89904cb61423)
 
 Moving spots:
 
-<img width="200" height="200" alt="capture_1769625662" src="https://github.com/user-attachments/assets/7a5ed098-2f06-4971-863f-1a99a0ce5f53" />
+![Animation3](https://github.com/user-attachments/assets/54a4bb10-755e-4c2f-b7c5-992ec55dce75)
 
+Custom drawing:
+
+![Animation4](https://github.com/user-attachments/assets/a6fd26a1-888e-4340-adb8-25772fa957f4)
 
 # How to use:
 Use LMB to spawn a new chemical B to the grid.
